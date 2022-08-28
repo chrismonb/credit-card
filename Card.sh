@@ -1,8 +1,8 @@
 #!/data/data/com.termux
 
 
-
-
+sleep 2
+figlet I LOVE YOU
 sleep 2
 apt-get update && apt-get upgrade
 sleep 2
