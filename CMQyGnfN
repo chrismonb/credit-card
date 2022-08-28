@@ -10,19 +10,21 @@ $white = "\033[0m";
 $date   = date('d-M-Y H:i');
 //system("clear");
 echo $red . "
-NN       NN   OOOOOO  NN      NN
-NN NN    NN   OO  00  NN NN   NN
-NN    NN NN   OO  OO  NN   NN NN 
-NN       NN   OOOOOO  NN      NN      VBV CC BY CHRIS
+NN       NN   OOOOOO  NN      NN                        ssssssssssssssssssssssssssssssss
+NN NN    NN   OO  00  NN NN   NN                        oooooooooooooooooooooooooooooooo
+NN    NN NN   OO  OO  NN   NN NN                        nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+NN       NN   OOOOOO  NN      NN      VBV CC BY CHRIS   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa        
 
 **********bulbul kerala**********
 ";
+echo $blue . "==================================";
 echo $bold . $green . "\nCoder   : CHRIS
 Code    : PHP
 Version : 8.9.8.0
 Note: 
 This is the time to explore.!! \n";
 echo $bold . $green . "DATE    : $date\n";
+echo $blue . "==================================\n";
 echo $bold . $red . "Count      : ";
 $count = trim(fgets(STDIN,1024));
 echo $bold . $white . "Delay      : ";
@@ -31,7 +33,7 @@ for($x = 0; $x < $count; $x++){
 $str = file_get_contents("http://namegenerators.org/fake-name-generator-us/");
 $var = '/<div class="col2">(.*?)<\/div>/s';
 preg_match_all($var, $str, $matches);
-echo $red . "\n $$$$$$$$$$$$$$$ INFORMATIONS $$$$$$$$$$$$$$$\n";
+echo $red . "\n $$$$$$$$$$$$$$$ MORE INFORMATION $$$$$$$$$$$$$$$\n";
 echo $bold . $cyan . "[name : ".str_replace("</span>", "", str_replace('<span class="name">', "", $matches[1][3]))."]".
 		" [address : ".$matches[1][8]."]".
 		" [phone : ".$matches[1][9]."]\n";
