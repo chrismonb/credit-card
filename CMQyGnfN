@@ -16,14 +16,12 @@ NN    NN NN   OO  OO  NN   NN NN
 NN       NN   OOOOOO  NN      NN      VBV CC BY CHRIS
 bulbul kerala
 ";
-echo $blue . "==================================";
 echo $bold . $green . "\nCoder   : CHRIS
 Code    : PHP
 Version : 8.9.8.0
 Note: 
 This is the time to explore.!! \n";
 echo $bold . $green . "DATE    : $date\n";
-echo $blue . "==================================\n";
 echo $bold . $red . "Count      : ";
 $count = trim(fgets(STDIN,1024));
 echo $bold . $white . "Delay      : ";
