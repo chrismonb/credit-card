@@ -16,7 +16,8 @@ NN    NN NN   OO  OO  NN   NN NN
 NN       NN   OOOOOO  NN      NN      VBV CC BY CHRIS
 
 **********bulbul kerala**********
-"; $bold . $green . "\nCoder   : CHRIS
+";
+echo $bold . $green . "\nCoder   : CHRIS
 Code    : PHP
 Version : 8.9.8.0
 Note: 
