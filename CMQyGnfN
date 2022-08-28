@@ -17,7 +17,7 @@ ccccc  ccccc     by CHRIS
 
 ";
 echo $blue . "==================================";
-echo $bold . $green . "\nCoder   : php.Script Code
+echo $bold . $green . "\nCoder   : CHRIS
 Code    : PHP
 Version : 8.9.8.0
 Note: 
