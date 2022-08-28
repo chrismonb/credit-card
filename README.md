@@ -1,2 +1,2 @@
 # Card-Number
-Cari cc dari termux
+your cloned NON VBV CC
