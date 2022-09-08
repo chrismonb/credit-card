@@ -28,7 +28,7 @@ NN       NN   OOOOOO  NN      NN      VBV CC BY CHRIS   aaaaaaaaaaaaaaaaaaaaaaaa
 
 **********bulbul kerala**********
 ";
-";
+
 echo $blue . "==================================";
 
 echo $bold . $green . "\nCoder   : php.Script Code
