@@ -41,7 +41,7 @@ Team    :
 
 Note: 
 
-If you know im........... you are safe;
+If you know im........... you are safe\n";
 
 echo $bold . $green . "DMYH    : $date\n";
 
